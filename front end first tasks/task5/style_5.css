@@ -1,0 +1,13 @@
+.roundedborders{
+    border-radius: 10px;
+    margin: 40px auto;  
+    border: solid black;
+    width: 800px;
+    height: 18px;
+    padding: 25px 0px 20px 10px;
+}
+p{
+    display:  inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+}

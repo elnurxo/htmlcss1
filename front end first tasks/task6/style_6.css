@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+#level{
+    justify-content: flex-start;
+    padding: 4px 0px ;
+}
+p{
+    margin-left: 14.3rem;
+    display: inline;
+}
+.reg{
+    margin: auto;
+    margin: 200px 370px;
+}
+input{
+    border: solid;
+    border-color: rgb(194, 194, 71);
+    width: 400px;
+    height: 23px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: white;
+    border: tomato;
+    background-color: tomato;
+    border-radius: 3px;
+    width: 110px;
+    height: 45px;
+    cursor: pointer;
+}

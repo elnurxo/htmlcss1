@@ -1,0 +1,17 @@
+
+.leftborder {
+
+    width: 800px;
+    height: 18px;
+    padding: 25px 0px 20px 10px;
+    background-color: #ddffff;
+    border-left: 10px solid #1e97f5;
+    border-radius: 4px;
+    margin: 0 auto;  
+}
+p{
+    display:  inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+
+}

@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+table{
+    border-collapse: collapse;
+}
+
+table,
+th,
+td,caption {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th,
+td {
+    width: 500px;
+    padding: 10px;
+}
+.white td{
+    border-bottom: 1px solid transparent;
+}
+.cap{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

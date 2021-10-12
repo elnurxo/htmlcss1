@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/task1/style.css">
+    <title>Task1</title>
+</head>
+<body>
+    <div class="Header">
+      <h2>Reservation Request</h2>
+      <fieldset>
+        <legend><strong>General Information</strong></legend>
+        <form>
+          <div class="Form">
+            <label for="date">Arrival Date:</label>
+            <input type="text" id="date" placeholder="Date">
+          </div>
+        </form>
+        <form>
+          <div class="Form">
+            <label for="nights">Nights:</label>
+            <input type="number" placeholder="Nights" />
+          </div>
+        </form>
+        <form>
+          <div class="Form1">
+            <label for="adults">Adults:</label>
+            <select name="Adults" id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+        </form>
+        <form>
+          <div class="Form1">
+            <label for="childrens">Childrens:</label>
+            <select name="Adults" id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+        </form>
+      </fieldset>
+      <fieldset>
+        <legend><strong>Preferences</strong></legend>
+        <form>      
+            <div class="Form2">
+            <label for="roomtype" id="select1">Room Type:</label>
+            <input type="radio" id="standart" value="Standart" name="foo">
+            <label for="Standart">Standart</label>
+            <input type="radio" id="business" value="Business" name="foo">
+            <label for="Business">Business</label>
+            <input type="radio" id="suite" value="Suite" name="foo">
+            <label for="Suite">Suite</label>           
+        </div>
+        </form>
+        <form>
+            <div class="Form2">
+            <label for="bedtype" id="select2">Bed Type:</label>
+            <input type="radio" id="king" value="King" name="fooo">
+            <label for="King">King</label>
+            <input type="radio" id="double" value="Double" name="fooo">
+            <label for="Business">Double Double</label> 
+        </div>
+            </form>
+            <form>
+                <div class="Form2">
+                    <input type="checkbox">
+                    <label for="Smoking">Smoking</label>
+                </div>
+            </form>       
+     </fieldset>
+        <fieldset>
+            <legend><strong>Contact Information</strong></legend>
+            <form>
+                <div class="Form">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Name">
+                </div>
+            </form>
+            <form>
+                <div class="Form">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="elnur.khalil@gmail.com">
+                </div>
+            </form>
+            <form>
+                <div class="Form">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" placeholder="xxx-xxx-xx-xx">
+                </div>
+            </form>
+        </fieldset>
+        <button id="click" type="submit">Submit Reservation</button>
+        <button id="click2" type="reset">Clear</button>
+      </div>
+    </div>
+  </body>
+</html>

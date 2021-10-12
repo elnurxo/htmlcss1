@@ -1,0 +1,19 @@
+#container p:first-child{
+    color: rgb(5, 153, 5);
+}
+#container p:nth-child(7){
+color: rgb(161, 4, 161);
+}
+.red{
+    color: rgb(241, 38, 38);
+}
+#container p:nth-child(8){
+    color: rgb(241, 38, 38);
+    background-color: rgb(75, 193, 230);
+}
+#container p:last-child{
+    color: rgb(206, 206, 7);
+    background-color: rgb(95, 95, 95)  ;
+    display: inline;
+}
+
